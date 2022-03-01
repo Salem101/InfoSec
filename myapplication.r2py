@@ -12,7 +12,7 @@ lastCharacter =  myfile.readat(1,endPosition)
 log(lastCharacter)
 
 #change 'lamb' in first sentence to LAMB
-myfile.writeat('LAMB',19)
+myfile.writeat('LAMB',18)
 
 #add sentence to the end
 myfile.writeat("\nAnd the children loved the lamb as well.", endPosition+1)
